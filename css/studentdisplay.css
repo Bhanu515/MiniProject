@@ -1,0 +1,100 @@
+*{
+	padding = 0;
+	margin = 0;
+	font-family : sans-serif;
+}
+
+/* body{
+  background-color: blue;
+} */
+
+
+/* .STUDENT input{
+  margin-top: 30px;
+  margin-left: 120px;
+  font-size: 15px;
+  width: 55%;
+  line-height: 40px;
+} */
+h1 {
+	text-align: center;
+}
+h4 {
+	text-align: left;
+  margin-left: 15px;
+}
+
+
+#u1{
+	margin-top: 15px;
+	margin-left: 100px;
+	font-size: 15px;
+	width: 55%;
+	line-height: 30px;
+}
+#id1{
+	margin-top: 15px;
+	margin-left: 150px;
+	font-size: 15px;
+	width: 55%;
+	line-height: 30px;
+}
+#d1{
+	margin-top: 15px;
+	margin-left: 147px;
+	font-size: 15px;
+	width: 55%;
+	line-height: 30px;
+}
+#s1{
+	margin-top: 15px;
+	margin-left: 134px;
+	font-size: 15px;
+	width: 55%;
+	line-height: 30px;
+}
+/* #sc1{
+	margin-top: 15px;
+	margin-left: 110px;
+	font-size: 15px;
+	width: 55%;
+	line-height: 30px;
+} */
+#p1{
+	margin-top: 15px;
+	margin-left: 101px;
+	font-size: 15px;
+	width: 55%;
+	line-height: 30px;
+}
+#mID{
+	margin-top: 15px;
+	margin-left: 160px;
+	font-size: 15px;
+	width: 55%;
+	line-height: 30px;
+}
+
+#submitbutton{
+	background-color: green; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+	border-radius: 15px;
+	margin-left: 150px;
+	margin-top: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#Iframe{
+  margin-top: 5px;
+  margin-left: 10px;
+  background-color: lightgreen;
+}
+
+#mid {
+  margin-left: 10px;
+}

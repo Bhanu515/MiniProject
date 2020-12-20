@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+    body{
+      background-image: url('images/image6.jpg');
+      /* background-image: url('images/image4/6/10.jpg'); */
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+       background-size: cover;
+
+    }
+    .FACULTY2{
+        background-image: url('images/image3.jpg');
+        /* background-image: url('images/image4/6/10.jpg'); */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+         background-size: cover;
+         font-size: 15px;
+         margin-left: 25%;
+         height: 650px;
+         width: 600px;
+         content: center;
+    }
+    .rb{
+      margin-left:30%;
+      vertical-align: middle;
+    }
+    #sub{
+    	background-color: green;
+      color: white;
+      padding: 1% 3%;
+    	border-radius: 15px;
+    	margin-left: 27%;
+    	margin-top: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+    #can{
+      background-color: green;
+      color: white;
+      padding: 1% 3%;
+      border-radius: 15px;
+      margin-left: 15%;
+      margin-top: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+
+    </style>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/addFaculty.css">
+    <title></title>
+  </head>
+  <body>
+    <h1>REGISTRATION</h1>
+    <div class="FACULTY2" >
+      <form action="addFaculty.php" method="post">
+        <h4>Username      <input id="u1"type="text" placeholder="Username" name="Username" required>
+        <h4>FacultyID         <input id="id1" type="FacultyID" placeholder="FacultyID" name="FacultyID" required>
+        <h4>Department        <input id="d1" name="Department" type="Department" placeholder="Department" required>
+        <h4>Subject      <input id="s1" name="Subject" type="Subject" placeholder="Subject" required>
+        <h4>SubjectCode      <input id="sc1" name="SubjectCode" type="SubjectCode" placeholder="SubjectCode" required>
+        <h4>PhoneNumber    <input id="p1" name= "Phonenumber" type="phonenumber" placeholder="phonenumber" required>
+        <h4>MailID     <input id="mID" name="MailId" type="MailID" placeholder="MailID" required>
+        <br>
+        <h4>Section
+        <div class="rb">
+                     <label class="radio-inline" for="A">
+                       <input type="radio" name = "sec" id="A" value="A" checked>
+                       <b>A</b>
+
+                     </label>
+
+                     <input type="radio" name = "sec" id="B" value="B">
+                     <label for="B"> <b>B</b></label>
+
+                     <input type="radio" name = "sec" id="C" value="C" >
+                     <label  for="C"> <b>C</b></label>
+                     <input type="radio" name = "sec" id="D" value="D" >
+                    <label for="D"> <b>D</b></label></h4>
+                    <button type="submit"  id="sub">Submit</button>
+                    <a href="Adminpage.html">
+                    <button type="button" name="Cancel" id="can">Cancel
+                    </button></a>
+        </div>
+      </form>
+      </div>
+
+  </body>
+</html>

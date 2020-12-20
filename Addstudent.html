@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/Addstudentt.css">
+    <title></title>
+    <style>
+    body{
+      background-image: url('images/image8.jpg');
+      /* background-image: url('images/image4/6/10.jpg'); */
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+       background-size: cover;
+    }
+    .ST{
+        background-image: url('images/image1.jpg');
+        /* background-image: url('images/image4/6/10.jpg'); */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+         background-size: cover;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>REGISTRATION</h1>
+    <div class="ST">
+      <form action="Addstudent.php" method="post">
+        <table>
+        <tr><td><h4>Username</td>   <td>   <input name="name" type="text" placeholder="Username" required></td></tr>
+        <tr><td><h4>Branch </td><td>   <input type="text" name="branch"  placeholder="Branch" required ></td></tr>
+        <tr><td><h4>Section    </td><td>    <input name="section" type="text" placeholder="section" required ></td></tr>
+        <tr><td><h4>PhoneNumber  </td><td>  <input name="phoneno" type="text" placeholder="phonenumber" required></td></tr>
+        <tr><td><h4>CollegeId   </td><td>   <input name="collegeid" type="text" placeholder="collegeId" required></td></tr>
+        <tr><td><h4>Parent  Name  </td><td> <input name="parentname" type="text" placeholder="parentName" required ></td></tr>
+        <tr><td><h4>Parent  Mobile no   </td><td>   <input name="parentphno" type="parentPhoneNumber" placeholder="parentPhoneNumber" required ></td></tr>
+        <tr><td><h4>parent  mail   </td><td>  <input name="parentmail" type="parentMail" placeholder="parentMail" required ></td></tr>
+        </table>
+
+        <button type="submit" id="s2">Submit</button>
+        <a href="Adminpage.html">
+        <button type="button" id="c2" >Cancel</button></a>
+      </form>
+    </div>
+  </body>
+</html>

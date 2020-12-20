@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Reset password for Student</title>
+    <style>
+    .pwd{
+      width:33%;
+      border: double black 2px;
+      margin-top:60px;
+      margin-left: 30%;
+    }
+    #formm{
+      margin-left: 20px;
+
+    }
+    #cb{
+      background-color: green; /* Green */
+      border: none;
+      color: white;
+      padding: 10px 25px;
+      border-radius: 15px;
+      margin-left:20%;
+      margin-top: 15px;
+      margin-bottom:20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+    #cb2{
+      background-color: green; /* Green */
+      border: none;
+      color: white;
+      padding: 10px 25px;
+      border-radius: 15px;
+      margin-left:35px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+
+    input{
+
+      margin-top:15px;
+      margin-left:30px;
+    }
+    body
+    {
+      background-image: url('images/image4.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+       background-size: cover;
+    }
+
+    </style>
+  </head>
+  <body>
+    <div class="pwd">
+    <form action="studentresetpwd.php" method="post" id="formm">
+      Enter your Rollno : <input type="text" name="rollno"></input>
+      <br><br>
+      Enter your phoneno: <input type="text" name="phone"></input>
+      <br><br>
+      Enter new Password : <input type="password" name="pwd1"></input>
+      <br><br>
+      Confirm new Password: <input type="password" name="pwd2"></input>
+      <br><br>
+      <button type="submit" id="cb">Submit</button>
+
+      <a href="loginstudent.html" <button type="cancel" name="Cancel" id="cb2">Cancel</button>
+      </a>
+      <br>
+      <br>
+     </form>
+     <div>
+
+  </body>
+</html>
